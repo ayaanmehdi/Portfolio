@@ -33,9 +33,10 @@ div,p,img,a{
 
 .myImageOnMobile{
     display: flex;
-    gap: 40px;
+    
     margin-bottom: 20px;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     /* height: 100px; */
 }
@@ -83,11 +84,11 @@ div,p,img,a{
     
 }
 .img-tag{
-    width: 400px;
-    height: 500px;
-    border-radius: 20px;
-    margin-left: 30px;
-    margin-top: -50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: -10px;
 }
 .text{
     font-family: "Dancing Script", cursive;
@@ -108,13 +109,15 @@ div,p,img,a{
     /* height: 50px; */
     background-color: #000000;
     color: #fff;
-    margin-top: 20px;
+    margin-top: -30px;
     /* border-radius: 100px; */
     border: none;
    padding: 10px;
+   
     font-size: 1.5rem;
     font-family: sans-serif;
     cursor: pointer;
+   
 }
 
 .section1_inputBox2{
@@ -123,7 +126,7 @@ div,p,img,a{
     background-color: #ffffff;
     color: #000000;
     border: 1px solid black;
-    margin-top: 20px;
+   
     /* border-radius: 100px; */
     /* border: none; */
    padding: 10px;
@@ -156,11 +159,14 @@ div,p,img,a{
         transform: rotate(360deg);
     }
 }
+.about-p{
+    margin-top: 20px;
+}
 .header{
     /* background-color: #fff; */
     background-color: maroon;
 color: white;
-    /* height: 90vh; */
+    height: 80vh;
     width: 100%;
     /* border-bottom: 5px solid rgb(224, 213, 213); */
     overflow: hidden;
@@ -544,14 +550,19 @@ footer  a{
     }
 
     .section1_inputBox2{
-        width: 150px;
-        margin-left: 15px;
+        width: 130px;
+        margin-left: 45px;
+        height: 40px;
+        font-size: 1rem;
     }
     .section1_inputBox1{
-        width: 150px;
+        width: 130px;
+        margin-left: 20px;
+        height: 40px;
+        font-size: 1rem;
     }
     .header{
-        /* height: 80vh; */
+        min-height: 100vh;
         width: 100%;
     }
 
