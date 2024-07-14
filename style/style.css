@@ -108,10 +108,10 @@ div{
 }
 .section1_inputBox1{
     width: 200px;
-    /* height: 50px; */
+    height: 50px;
     background-color: #000000;
     color: #fff;
-    margin-top: -30px;
+    /* margin-top: -30px; */
     /* border-radius: 100px; */
     border: none;
    padding: 10px;
@@ -577,20 +577,21 @@ footer  a{
 
 
     .section1_inputBoxes{
-        width: 100vw;
+        width: 80vw;
+        gap: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .section1_inputBox2{
-        width: 40%;
+        width: 150px;
         /* margin-left: 45px; */
         height: 40px;
         font-size: 1rem;
     }
     .section1_inputBox1{
-        width: 40%;
+        width: 150px;
         /* margin-left: 50px; */
         height: 40px;
         font-size: 1rem;
