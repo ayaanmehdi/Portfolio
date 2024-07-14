@@ -15,6 +15,10 @@
 }
 
 
+div{
+    /* border: 1px solid yellow; */
+}
+
    
 .myImageOnMobile
 {
@@ -164,7 +168,7 @@
     /* background-color: #fff; */
     background-color: rgba(44, 1, 1, 0.947);
 color: white;
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%;
     /* border-bottom: 5px solid rgb(224, 213, 213); */
     overflow: hidden;
@@ -402,9 +406,12 @@ footer  a{
     margin-left: 30px;
 }
 
+.skills_div{
+    background-color:    #181A1B;
+}
 
 .skills-container{
-    background-color:    #181A1B;
+   
     width: 100%;
     min-height: 50vh;
   
@@ -495,6 +502,8 @@ footer  a{
     height: 170px;
 }
 .skill_card_footer{
+    padding: 5px;
+    /* overflow-x: scroll; */
     width: 100%;
     background-color: #131414;
     color: white;
@@ -531,7 +540,7 @@ footer  a{
     padding: 10px;
     font-family: "Roboto",sans-serif;
     height: 50vh;
-    background-color: #131414;
+    /* background-color: #131414; */
 }
 .projects h1{
 
@@ -566,15 +575,23 @@ footer  a{
         margin-bottom: 40px;
     }
 
+
+    .section1_inputBoxes{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .section1_inputBox2{
-        width: 130px;
-        margin-left: 45px;
+        width: 40%;
+        /* margin-left: 45px; */
         height: 40px;
         font-size: 1rem;
     }
     .section1_inputBox1{
-        width: 130px;
-        margin-left: 50px;
+        width: 40%;
+        /* margin-left: 50px; */
         height: 40px;
         font-size: 1rem;
     }
