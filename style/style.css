@@ -168,6 +168,7 @@ div{
     /* background-color: #fff; */
     background-color: rgba(44, 1, 1, 0.947);
 color: white;
+padding-bottom: 50px;
     /* height: 80vh; */
     width: 100%;
     /* border-bottom: 5px solid rgb(224, 213, 213); */
@@ -533,18 +534,54 @@ footer  a{
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: #64E6F8;
+    
     text-align: center;
     font-size: 0.9rem;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
     font-family: "Roboto",sans-serif;
-    height: 50vh;
+    /* height: 50vh; */
     /* background-color: #131414; */
 }
+.project-made{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 60%;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    
+    border: 3px solid #8646D7;
+    padding: 20px;
+    box-shadow: 6px 6px 0px #8646D7;
+   
+}
+.project-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+   margin-bottom: 20px; 
+    width: 100%;
+}
 .projects h1{
-
+    
     font-weight: 700;
+}
+.project-made h2{
+    font-size: 1.8rem;
+    color: #FEBD6F;
+    font-weight: 700;
+
+}
+.project-made p{
+    line-height: 1.7;
+    font-size: 1rem;
+    margin-top: 20px;
 }
 .projects span{
     color: #7DEEA6;
@@ -559,6 +596,10 @@ footer  a{
 
 @media (max-width:720px) {
 
+
+    .project-made{
+        width: 90%;
+    }
 
     .myImageOnMobile{
         visibility: visible;
