@@ -14,9 +14,7 @@
     font-weight: 300;
 }
 
-div,p,img,a{
-    /* border: 1px solid yellow; */
-}
+
    
 .myImageOnMobile
 {
@@ -164,7 +162,7 @@ div,p,img,a{
 }
 .header{
     /* background-color: #fff; */
-    background-color: rgb(58, 3, 3);
+    background-color: rgba(44, 1, 1, 0.947);
 color: white;
     height: 80vh;
     width: 100%;
@@ -630,7 +628,7 @@ footer  a{
         font-family: "Dancing Script", cursive;
         font-size: 2rem;
         font-weight: bold;
-        /* margin-top: -150px; */
+        
     }
     .text span{
         font-family: "Dancing Script", cursive;
@@ -641,10 +639,7 @@ footer  a{
         margin: 20px 0;
 
     }
-    .skills{
-         /* min-height: 100vh; */
-
-    }
+    
 
     .skill_card{
         background-color: #2e3438;
